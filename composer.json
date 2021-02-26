@@ -1,24 +1,28 @@
 {
-    "name": "myclabs/php-enum",
+    "name": "g6v/php-enum",
     "type": "library",
     "description": "PHP Enum implementation",
     "keywords": ["enum"],
-    "homepage": "http://github.com/myclabs/php-enum",
+    "homepage": "http://github.com/GorokhovDV/php-enum",
     "license": "MIT",
     "authors": [
         {
             "name": "PHP Enum contributors",
             "homepage": "https://github.com/myclabs/php-enum/graphs/contributors"
+        },
+        {
+            "name": "PHP Enum contributors",
+            "homepage": "https://github.com/GorokhovDV/php-enum/graphs/contributors"
         }
     ],
     "autoload": {
         "psr-4": {
-            "MyCLabs\\Enum\\": "src/"
+            "G6V\\Enum\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "MyCLabs\\Tests\\Enum\\": "tests/"
+            "G6V\\Tests\\Enum\\": "tests/"
         }
     },
     "require": {
