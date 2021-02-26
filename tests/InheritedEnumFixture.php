@@ -1,10 +1,10 @@
 <?php
 
-namespace MyCLabs\Tests\Enum;
+namespace G6V\Tests\Enum;
 
 /**
  * Class InheritedEnumFixture.
- * @package MyCLabs\Tests\Enum
+ * @package G6V\Tests\Enum
  *
  * @method static InheritedEnumFixture VALUE()
  */

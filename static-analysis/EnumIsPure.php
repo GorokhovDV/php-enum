@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace MyCLabs\Tests\Enum\StaticAnalysis;
+namespace G6V\Tests\Enum\StaticAnalysis;
 
-use MyCLabs\Enum\Enum;
+use G6V\Enum\Enum;
 
 /**
  * @method static PureEnum A()

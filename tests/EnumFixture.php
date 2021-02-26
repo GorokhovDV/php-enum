@@ -4,9 +4,9 @@
  * @license http://www.opensource.org/licenses/mit-license.php MIT (see the LICENSE file)
  */
 
-namespace MyCLabs\Tests\Enum;
+namespace G6V\Tests\Enum;
 
-use MyCLabs\Enum\Enum;
+use G6V\Enum\Enum;
 
 /**
  * Class EnumFixture

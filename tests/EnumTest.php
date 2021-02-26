@@ -4,7 +4,7 @@
  * @license http://www.opensource.org/licenses/mit-license.php MIT (see the LICENSE file)
  */
 
-namespace MyCLabs\Tests\Enum;
+namespace G6V\Tests\Enum;
 
 /**
  * @author Matthieu Napoli <matthieu@mnapoli.fr>
@@ -54,7 +54,7 @@ class EnumTest extends \PHPUnit\Framework\TestCase
     public function testFailToCreateEnumWithInvalidValueThroughNamedConstructor($value): void
     {
         $this->expectException(\UnexpectedValueException::class);
-        $this->expectExceptionMessage('is not part of the enum MyCLabs\Tests\Enum\EnumFixture');
+        $this->expectExceptionMessage('is not part of the enum G6V\Tests\Enum\EnumFixture');
 
         EnumFixture::from($value);
     }
@@ -362,7 +362,7 @@ class EnumTest extends \PHPUnit\Framework\TestCase
     public function testEnumValuesInheritance()
     {
         $this->expectException(\UnexpectedValueException::class);
-        $this->expectExceptionMessage("Value 'value' is not part of the enum MyCLabs\Tests\Enum\EnumFixture");
+        $this->expectExceptionMessage("Value 'value' is not part of the enum G6V\Tests\Enum\EnumFixture");
         $inheritedEnumFixture = InheritedEnumFixture::VALUE();
         new EnumFixture($inheritedEnumFixture);
     }
